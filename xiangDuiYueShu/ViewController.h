@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
+@property(nonatomic)IBOutlet UIButton *btnClose;
 @end
 

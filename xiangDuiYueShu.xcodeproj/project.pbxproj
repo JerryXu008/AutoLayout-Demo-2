@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4E9D8E91A81AC0F0093A1BE /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9D8E81A81AC0F0093A1BE /* CustomView.m */; };
+		E4E9D8EB1A81AE6C0093A1BE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E9D8EA1A81AE6C0093A1BE /* CoreText.framework */; };
+		E4E9D8EF1A81AEB80093A1BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E9D8EC1A81AEB80093A1BE /* Foundation.framework */; };
+		E4E9D8F01A81AEB80093A1BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E9D8ED1A81AEB80093A1BE /* CoreGraphics.framework */; };
+		E4E9D8F11A81AEB80093A1BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E9D8EE1A81AEB80093A1BE /* UIKit.framework */; };
+		E4EE18611A83142F00CCCB89 /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EE18601A83142F00CCCB89 /* taobao.png */; };
 		E4F231351A70DF4300311ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F231341A70DF4300311ACF /* main.m */; };
 		E4F231381A70DF4300311ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F231371A70DF4300311ACF /* AppDelegate.m */; };
 		E4F2313B1A70DF4300311ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F2313A1A70DF4300311ACF /* ViewController.m */; };
 		E4F2313E1A70DF4300311ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F2313C1A70DF4300311ACF /* Main.storyboard */; };
 		E4F231401A70DF4300311ACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F2313F1A70DF4300311ACF /* Images.xcassets */; };
-		E4F231431A70DF4300311ACF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F231411A70DF4300311ACF /* LaunchScreen.xib */; };
 		E4F2314F1A70DF4300311ACF /* xiangDuiYueShuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F2314E1A70DF4300311ACF /* xiangDuiYueShuTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E4E9D8E71A81AC0F0093A1BE /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		E4E9D8E81A81AC0F0093A1BE /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		E4E9D8EA1A81AE6C0093A1BE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E4E9D8EC1A81AEB80093A1BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4E9D8ED1A81AEB80093A1BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4E9D8EE1A81AEB80093A1BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4EE18601A83142F00CCCB89 /* taobao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taobao.png; sourceTree = "<group>"; };
 		E4F2312F1A70DF4300311ACF /* xiangDuiYueShu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiangDuiYueShu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F231331A70DF4300311ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F231341A70DF4300311ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +48,6 @@
 		E4F2313A1A70DF4300311ACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4F2313D1A70DF4300311ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F2313F1A70DF4300311ACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E4F231421A70DF4300311ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E4F231481A70DF4300311ACF /* xiangDuiYueShuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiangDuiYueShuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F2314D1A70DF4300311ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F2314E1A70DF4300311ACF /* xiangDuiYueShuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiangDuiYueShuTests.m; sourceTree = "<group>"; };
@@ -47,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E9D8F01A81AEB80093A1BE /* CoreGraphics.framework in Frameworks */,
+				E4E9D8F11A81AEB80093A1BE /* UIKit.framework in Frameworks */,
+				E4E9D8EB1A81AE6C0093A1BE /* CoreText.framework in Frameworks */,
+				E4E9D8EF1A81AEB80093A1BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,10 @@
 		E4F231261A70DF4300311ACF = {
 			isa = PBXGroup;
 			children = (
+				E4E9D8EC1A81AEB80093A1BE /* Foundation.framework */,
+				E4E9D8ED1A81AEB80093A1BE /* CoreGraphics.framework */,
+				E4E9D8EE1A81AEB80093A1BE /* UIKit.framework */,
+				E4E9D8EA1A81AE6C0093A1BE /* CoreText.framework */,
 				E4F231311A70DF4300311ACF /* xiangDuiYueShu */,
 				E4F2314B1A70DF4300311ACF /* xiangDuiYueShuTests */,
 				E4F231301A70DF4300311ACF /* Products */,
@@ -81,13 +100,15 @@
 		E4F231311A70DF4300311ACF /* xiangDuiYueShu */ = {
 			isa = PBXGroup;
 			children = (
+				E4EE18601A83142F00CCCB89 /* taobao.png */,
+				E4E9D8E71A81AC0F0093A1BE /* CustomView.h */,
+				E4E9D8E81A81AC0F0093A1BE /* CustomView.m */,
 				E4F231361A70DF4300311ACF /* AppDelegate.h */,
 				E4F231371A70DF4300311ACF /* AppDelegate.m */,
 				E4F231391A70DF4300311ACF /* ViewController.h */,
 				E4F2313A1A70DF4300311ACF /* ViewController.m */,
 				E4F2313C1A70DF4300311ACF /* Main.storyboard */,
 				E4F2313F1A70DF4300311ACF /* Images.xcassets */,
-				E4F231411A70DF4300311ACF /* LaunchScreen.xib */,
 				E4F231321A70DF4300311ACF /* Supporting Files */,
 			);
 			path = xiangDuiYueShu;
@@ -200,8 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F2313E1A70DF4300311ACF /* Main.storyboard in Resources */,
-				E4F231431A70DF4300311ACF /* LaunchScreen.xib in Resources */,
 				E4F231401A70DF4300311ACF /* Images.xcassets in Resources */,
+				E4EE18611A83142F00CCCB89 /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F2313B1A70DF4300311ACF /* ViewController.m in Sources */,
+				E4E9D8E91A81AC0F0093A1BE /* CustomView.m in Sources */,
 				E4F231381A70DF4300311ACF /* AppDelegate.m in Sources */,
 				E4F231351A70DF4300311ACF /* main.m in Sources */,
 			);
@@ -250,14 +272,6 @@
 				E4F2313D1A70DF4300311ACF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4F231411A70DF4300311ACF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4F231421A70DF4300311ACF /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +426,7 @@
 				E4F231541A70DF4300311ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F231551A70DF4300311ACF /* Build configuration list for PBXNativeTarget "xiangDuiYueShuTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				E4F231571A70DF4300311ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
